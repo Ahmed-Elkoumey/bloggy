@@ -1,0 +1,130 @@
+/* Container and Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.btnsWrap{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+/* Logout Button */
+.logoutButton {
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logoutButton:hover {
+  background-color: #ff6b81;
+}
+.profileButton {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.profileButton:hover {
+  background-color: #005bb5;
+}
+
+/* Users Grid */
+.usersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* User Card */
+.userCard {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.userCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.userName {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.userEmail {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.userLocation {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.userCompany {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Details Button */
+.detailsBtn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.detailsBtn:hover {
+  background-color: #555;
+}
+
+/* Loading and Error States */
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.error {
+  color: #ff4757;
+}
+
+

@@ -1,0 +1,59 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.formWrapper h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+.formWrapper .formControl{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.formWrapper label{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+.formWrapper input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.formWrapper button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}   
+
+.error{
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
