@@ -160,3 +160,67 @@
 .backButton:hover {
   background-color: #005bb5;
 }
+
+/* break points */
+@media (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 50px 0px; 
+  }
+  
+  .container {
+    width: 90%;
+  }
+
+  .userImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .userTitle {
+    font-size: 1rem;
+  }
+
+  .userInfo h3 {
+    font-size: 1.2rem;
+  }
+
+  .userInfo p {
+    font-size: 0.9rem;
+  }
+}
+
+@mmedia (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .userImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .userTitle {
+    font-size: 0.9rem;
+  }
+
+  .userInfo h3 {
+    font-size: 1rem;
+  }
+
+  .userInfo p {
+    font-size: 0.9rem;
+  }
+}
+/* break points */

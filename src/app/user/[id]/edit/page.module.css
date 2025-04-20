@@ -135,3 +135,28 @@
     color: #ff4757;
     margin-top: 50px;
   }
+
+  /* break points */
+  @media (max-width: 550px) {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+    height: fit-content;
+    padding: 50px 0;
+    }
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .dataWrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .btnsWrap{
+      padding-top: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  /* break points */
