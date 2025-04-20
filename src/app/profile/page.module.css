@@ -188,6 +188,7 @@
   
     .userInfo p {
       font-size: 14px;
+      line-break: anywhere;
     }
   
     .loading,
